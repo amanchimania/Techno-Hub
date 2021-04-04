@@ -3,5 +3,12 @@ img {
 }
 .header {
   height: 100px;
-  background-color: #4a3933 !important;
+  /* background-color: #f8f5f1 !important;
+  color: #e9896a !important; */
+}
+.product-header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: slategray;
+  /* background-color: ; */
 }

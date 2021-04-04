@@ -9,6 +9,10 @@ import {
 } from "react-bootstrap";
 import imgg from "../Aman.jpg";
 import background from "../background.jpg";
+import logo from "../logo.png";
+import c1 from "../c1.jpg";
+import c2 from "../c2.jpg";
+import c3 from "../c3.jpg";
 import Grid from "./Grid";
 import Foot from "./Foot";
 import Details from "./Details";
@@ -31,12 +35,14 @@ export default function App() {
         bg="dark"
         variant="dark"
       >
+        <img src={logo} style={{ height: "40px", width: "40px" }}></img>{" "}
+        &nbsp;&nbsp;&nbsp;
         <Navbar.Brand href="#home">Techno Hub</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">About Us</Nav.Link>
-            <Nav.Link href="#pricing">Partners</Nav.Link>
+            <Nav.Link href="#about">About Us</Nav.Link>
+            <Nav.Link href="#partners">Partners</Nav.Link>
             <NavDropdown title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 Software Solutions
@@ -61,14 +67,14 @@ export default function App() {
 
       <Carousel fade>
         <Carousel.Item>
-          <img className="d-block w-100" src={imgg} alt="First slide" />
+          <img className="d-block w-100" src={c2} alt="First slide" />
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={imgg} alt="Second slide" />
+          <img className="d-block w-100" src={c1} alt="Second slide" />
 
           <Carousel.Caption>
             <h3>Second slide label</h3>
@@ -76,7 +82,7 @@ export default function App() {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={imgg} alt="Third slide" />
+          <img className="d-block w-100" src={c3} alt="Third slide" />
 
           <Carousel.Caption>
             <h3>Third slide label</h3>
@@ -86,8 +92,11 @@ export default function App() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <h1>
-        <b>Products</b>
+
+      <h1 className="product-header">
+        <b>
+          <center>Products</center>
+        </b>
       </h1>
       <div>
         <Grid style={{ style1 }} />
