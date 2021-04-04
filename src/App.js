@@ -1,5 +1,12 @@
-import "./styles.css";
-import { Nav, Navbar, NavDropdown, Carousel } from "react-bootstrap";
+import "./index";
+import {
+  Nav,
+  Navbar,
+  NavDropdown,
+  Carousel,
+  Alert,
+  Button
+} from "react-bootstrap";
 import imgg from "./Aman.jpg";
 import Grid from "./Grid";
 import Foot from "./Foot";
@@ -70,9 +77,17 @@ export default function App() {
       <h1>
         <b>Products</b>
       </h1>
-      <div style={{ display: " flex ", color: "red" }}>
+      <div>
         <Grid style={{ style1 }} />
       </div>
+      <Alert variant="success">
+        <center>
+          Ready to get Started!{" "}
+          <Button variant="primary" size="lg">
+            Book a Service
+          </Button>{" "}
+        </center>
+      </Alert>
       <Details />
       <Foot />
     </div>
