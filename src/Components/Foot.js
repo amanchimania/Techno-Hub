@@ -1,4 +1,4 @@
-export default Foot = () => {
+const Foot = () => {
     return (
         <>
             <footer class="container py-5">
@@ -141,3 +141,4 @@ export default Foot = () => {
         </>
     );
 };
+export default Foot;

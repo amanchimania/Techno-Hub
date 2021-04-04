@@ -1,5 +1,6 @@
 import { Card, CardDeck } from "react-bootstrap";
-export default Details = () => {
+import card5 from "../Images/card5.jpg"
+const Details = () => {
     return (
         <CardDeck>
             <Card>
@@ -12,8 +13,9 @@ export default Details = () => {
                 </Card.Body>
             </Card>
             <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
+                <Card.Img variant="top" src={card5} />
             </Card>
         </CardDeck>
     );
 };
+export default Details;

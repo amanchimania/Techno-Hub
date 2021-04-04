@@ -7,12 +7,11 @@ import {
   Alert,
   Button
 } from "react-bootstrap";
-import imgg from "../Aman.jpg";
-import background from "../background.jpg";
-import logo from "../logo.png";
-import c1 from "../c1.jpg";
-import c2 from "../c2.jpg";
-import c3 from "../c3.jpg";
+import background from "../Images/background.jpg";
+import logo from "../Images/logo.png";
+import c1 from "../Images/c1.jpg";
+import c2 from "../Images/c2.jpg";
+import c3 from "../Images/c3.jpg";
 import Grid from "./Grid";
 import Foot from "./Foot";
 import Details from "./Details";
@@ -25,7 +24,8 @@ export default function App() {
     <div
       className="App"
       style={{
-        backgroundImage: `url(${background})`
+        // backgroundImage: `url(${background})`
+        backgroundColor: "#f7f3e9"
       }}
     >
       <Navbar
@@ -64,7 +64,7 @@ export default function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-
+      <br /><br />
       <Carousel fade>
         <Carousel.Item>
           <img className="d-block w-100" src={c2} alt="First slide" />
@@ -92,15 +92,17 @@ export default function App() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-
+      <br /><br />
       <h1 className="product-header">
         <b>
           <center>Products</center>
         </b>
       </h1>
       <div>
+        <br /><br />
         <Grid style={{ style1 }} />
       </div>
+      <br /><br />
       <Alert variant="success">
         <center>
           Ready to get Started!{" "}
@@ -109,7 +111,9 @@ export default function App() {
           </Button>{" "}
         </center>
       </Alert>
+      <br /><br />
       <Details />
+      <br /><br />
       <Foot />
     </div>
   );
