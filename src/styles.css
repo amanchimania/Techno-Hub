@@ -12,3 +12,7 @@ img {
   color: slategray;
   /* background-color: ; */
 }
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+}

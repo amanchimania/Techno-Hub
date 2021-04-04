@@ -1,40 +1,17 @@
 import { Card, CardDeck } from "react-bootstrap";
+import "../styles.css"
 import card1 from "../Images/card1.jpg";
 import card2 from "../Images/card2.jpg";
 import card3 from "../Images/card3.jpg";
 import card4 from "../Images/card4.jpg";
 const Grid = () => {
     return (
-        <CardDeck style={{ heigth: "50px !important" }}>
-            <Card >
-                <Card.Img variant="top" src={card1} />
-                <Card.Body>
-                    <Card.Title><center>Card title</center></Card.Title>
-                </Card.Body>
-
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={card2} />
-                <Card.Body>
-                    <Card.Title><center>Card title</center></Card.Title>
-                </Card.Body>
-
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={card3} />
-                <Card.Body>
-                    <Card.Title><center>Card title</center></Card.Title>
-                </Card.Body>
-
-            </Card>
-            <Card>
-                <Card.Img variant="top" src={card4} />
-                <Card.Body>
-                    <Card.Title><center>Card title</center></Card.Title>
-                </Card.Body>
-
-            </Card>
-        </CardDeck>
+        <div id="app" className="grid">
+            <a href="#"><img src={card1} style={{ height: "200px", width: "200px" }} alt="" /></a>
+            <a href="#"> <img src={card2} style={{ height: "200px", width: "200px" }} alt="" /></a>
+            <a href="#"> <img src={card3} style={{ height: "200px", width: "200px" }} alt="" /></a>
+            <a href="#"> <img src={card4} style={{ height: "200px", width: "200px" }} alt="" /></a>
+        </div>
     );
 };
 export default Grid;

@@ -100,7 +100,7 @@ export default function App() {
       </h1>
       <div>
         <br /><br />
-        <Grid style={{ style1 }} />
+        <Grid />
       </div>
       <br /><br />
       <Alert variant="success">
