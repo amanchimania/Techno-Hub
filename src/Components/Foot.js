@@ -1,9 +1,9 @@
 const Foot = () => {
     return (
         <>
-            <footer class="container py-5">
-                <div class="row">
-                    <div class="col-12 col-md">
+            <footer className="footer py-5">
+                <div className="row">
+                    <div className="col-12 col-md">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -14,7 +14,7 @@ const Foot = () => {
                             stroke-width="2"
                             stroke-linecap="round"
                             stroke-linejoin="round"
-                            class="d-block mb-2"
+                            className="d-block mb-2"
                         >
                             <circle cx="12" cy="12" r="10"></circle>
                             <line x1="14.31" y1="8" x2="20.05" y2="17.94"></line>
@@ -24,113 +24,113 @@ const Foot = () => {
                             <line x1="14.31" y1="16" x2="2.83" y2="16"></line>
                             <line x1="16.62" y1="12" x2="10.88" y2="21.94"></line>
                         </svg>
-                        <small class="d-block mb-3 text-muted">© 2017-2018</small>
+                        <small className="d-block mb-3 text-muted">© 2017-2018</small>
                     </div>
-                    <div class="col-6 col-md">
+                    <div className="col-6 col-md">
                         <h5>Features</h5>
-                        <ul class="list-unstyled text-small">
+                        <ul className="list-unstyled text-small">
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Cool stuff
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Random feature
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Team feature
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Stuff for developers
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Another one
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Last time
                   </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-6 col-md">
+                    <div className="col-6 col-md">
                         <h5>Resources</h5>
-                        <ul class="list-unstyled text-small">
+                        <ul className="list-unstyled text-small">
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Resource
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Resource name
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Another resource
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Final resource
                   </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-6 col-md">
+                    <div className="col-6 col-md">
                         <h5>Resources</h5>
-                        <ul class="list-unstyled text-small">
+                        <ul className="list-unstyled text-small">
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Business
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Education
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Government
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Gaming
                   </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-6 col-md">
+                    <div className="col-6 col-md">
                         <h5>About</h5>
-                        <ul class="list-unstyled text-small">
+                        <ul className="list-unstyled text-small">
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Team
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Locations
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Privacy
                   </a>
                             </li>
                             <li>
-                                <a class="text-muted" href="#">
+                                <a className="text-muted" href="#">
                                     Terms
                   </a>
                             </li>

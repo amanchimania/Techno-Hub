@@ -7,6 +7,7 @@ import {
   Alert,
   Button
 } from "react-bootstrap";
+import { BrowserRouter, Switch, Link, Route } from "react-router-dom";
 import background from "../Images/background.jpg";
 import logo from "../Images/logo.png";
 import c1 from "../Images/c1.jpg";
@@ -15,6 +16,7 @@ import c3 from "../Images/c3.jpg";
 import Grid from "./Grid";
 import Foot from "./Foot";
 import Details from "./Details";
+import Partners from "./Partners"
 export default function App() {
   let style1 = {
     justifyContent: "space-evenly",
@@ -28,42 +30,6 @@ export default function App() {
         backgroundColor: "#f7f3e9"
       }}
     >
-      <Navbar
-        className="header"
-        collapseOnSelect
-        expand="lg"
-        bg="dark"
-        variant="dark"
-      >
-        <img src={logo} style={{ height: "40px", width: "40px" }}></img>{" "}
-        &nbsp;&nbsp;&nbsp;
-        <Navbar.Brand href="#home">Techno Hub</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#about">About Us</Nav.Link>
-            <Nav.Link href="#partners">Partners</Nav.Link>
-            <NavDropdown title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
-                Software Solutions
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Hardware Solutions
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
-                Device Installation
-              </NavDropdown.Item>
-              {/* <NavDropdown.Divider /> */}
-            </NavDropdown>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link eventKey={2} href="#login">
-              Login
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
       <br /><br />
       <Carousel fade>
         <Carousel.Item>
