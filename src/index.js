@@ -4,12 +4,12 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./Components/Header";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, MemoryRouter } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom"
 ReactDOM.render(
   <React.StrictMode>
-    <MemoryRouter>
+    <BrowserRouter>
       <App />
-    </MemoryRouter>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
