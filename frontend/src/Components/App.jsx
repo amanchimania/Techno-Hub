@@ -1,5 +1,4 @@
-import { BrowserRouter, Switch, Link, Route } from "react-router-dom";
-import Partners from "./Partners";
+import { BrowserRouter, Switch, Link, Route, Redirect } from "react-router-dom";
 import Header from "./Header";
 const App = () => {
   return (

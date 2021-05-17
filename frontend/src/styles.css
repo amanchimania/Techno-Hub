@@ -1,0 +1,39 @@
+img {
+  height: 500px;
+}
+.header {
+  height: 100px;
+  /* background-color: #f8f5f1 !important;
+  color: #e9896a !important; */
+}
+.product-header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: slategray;
+  /* background-color: ; */
+}
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 850px) {
+  .grid {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.main-header {
+  height: 70px;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+.footer {
+  background-color: beige !important;
+  padding: 20px;
+}
+button {
+  background-color: antiquewhite;
+  border: 0px;
+  color: darkolivegreen;
+  font-size: x-large;
+}

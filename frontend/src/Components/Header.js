@@ -1,5 +1,4 @@
-import { Nav, Navbar } from "react-bootstrap";
-import { NavLink, Link, Switch, Route } from "react-router-dom";
+import { Link, Switch, Route } from "react-router-dom";
 import Partners from "./Partners"
 import logo from "../Images/logo.png"
 import Home from "./Home"
@@ -11,12 +10,13 @@ import AboutUs from "./AboutUs";
 const Header = () => {
   return (
     <div className="main-header">
-      <img src={logo} style={{ height: "80px", width: "80px" }}></img>&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src={logo} style={{ height: "50px", width: "50px" }}></img>&nbsp;&nbsp;&nbsp;&nbsp;
       <span style={{ fontSize: "xx-large" }}>Techno Hub</span>&nbsp;&nbsp;&nbsp;&nbsp;
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <Link to="/Home"><button>Home</button></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <Link to="/partners"><button>Partners</button></Link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <Link to="/aboutus"><button>About Us</button></Link>
+
       <div style={{ float: "right", position: "relative", top: "15px" }}>
         <Link to="/login"><button>Login</button></Link>
         <Link to="/Signup"><button>Signup</button></Link>
